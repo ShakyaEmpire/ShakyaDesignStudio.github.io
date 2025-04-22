@@ -156,7 +156,7 @@ nav .fa{  /* for icon not showing on large screen*/
      font-size: 25px;
  }
  .services-col p{
-     color: rgb(169, 204, 227);
+     color: rgb(33, 47, 61);
      font-size: 20px;
  }
  .row{
@@ -207,7 +207,7 @@ nav .fa{  /* for icon not showing on large screen*/
 }
 
 .team p{
-    color: rgb(169, 204, 227);
+    color: rgb(33, 47, 61);
     font-size: 20px;
     line-height: 22px;
     padding: 3px;
