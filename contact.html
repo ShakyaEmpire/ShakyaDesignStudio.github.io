@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShakyaDesign</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <section class="sub-header3">
+     <nav>
+        <a href="index.html"><img src="images/Logo3.png" alt="LOGO"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+     </nav>
+     <h1>Contact Us !</h1>
+
+    </section>
+
+<!------Contact us page------>
+
+<section class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224611.80361386883!2d77.17898668455805!3d28.402371868034386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cdc15f5a424b1%3A0xe4f50576c850e0f2!2sFaridabad%2C%20Haryana!5e0!3m2!1sen!2sin!4v1620141202172!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<section class="contact-us">
+
+    <div class="row">
+
+       <div class="contact-col1">
+         <div>
+             <i class="fa fa-home"></i>
+             <span>
+                 <h4>Faridabad</h4>
+                 <p>Haryana, India - 121001</p>
+             </span>
+         </div>
+
+         <div>
+            <i class="fa fa-phone"></i>
+            <span>
+                <h4>+91-9953060735</h4>
+                <p>Monday-Sunday, 9AM to 10PM</p>
+            </span>
+        </div>
+
+        <div>
+            <i class="fa fa-envelope-o"></i>
+            <span>
+                <h4>info@shakyadesign.online</h4>
+                <p>Send us your query</p>
+            </span>
+        </div>
+
+       </div>
+
+       <div class="contact-col2">
+           <form action="form-handler.php" method="POST" onsubmit="show()" >
+               <input type="text" id="name" name="name" placeholder="Enter your name" pattern="[a-zA-Z\s]{3,}" 
+               title="Please input alphabet characters only" required>
+
+               <input type="email" id="email" name="email" placeholder="Enter email address" 
+               pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" 
+               title="A form with an email field that that must be in the following order: 
+               characters@characters.domain (characters followed by an @ sign, 
+               followed by more characters, and then a '.'. After the '.' sign, 
+               add at least 2 letters from a to z" required>
+
+               <textarea rows="8" id="message" name="message" placeholder="write your message" required ></textarea>
+
+               <button type="submit" class="sendquery" > Send Query!</button>
+
+           </form>
+           
+       </div>
+
+    </div>
+
+</section>
+
+<!---Footer-->
+
+<section class="footer">
+    <div class="aboutline"><hr></div>
+    <h4>About Us</h4>
+    <p id="aboutP">ShakyaDesign is new emerging organization in the digital world. We are committed for reliable and affordable services.
+        ShakyaDesign is having associates in the organization these are known for providing the best class services and this makes us different from other competitors. 
+     </p>
+    <div class="social-icons">
+        <p id="follow"> follow us <i class="fa fa-hand-o-down"></i></p>
+        <ul>
+            <li><a href="https://www.facebook.com/sachin.shakya.1426/" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+           <li><a href="https://www.instagram.com/shakya_empire/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/sachin-shakya-156aa494/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/ShakyaEmpire" target="_blank"><i class="fa fa-github"></i></a></li>
+       </ul>
+    </div>
+    <p id="foot">Copyright <i class="fa fa-copyright"></i> 2021 ShakyaDesign</p>
+
+</section>
+
+
+<!------JS for toggle menu ------>
+
+<script type="text/javascript">
+
+    
+    function showMenu(){
+        var navLinks = document.getElementById("navLinks");
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        var navLinks = document.getElementById("navLinks");
+        navLinks.style.right="-200px";
+    }
+
+    function show(){
+        alert(" Thank You !\n We have received your message !");
+    }
+
+
+</script> 
+
+</body>
+
+</html>
