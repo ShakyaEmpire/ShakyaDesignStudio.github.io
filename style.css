@@ -167,7 +167,7 @@ nav .fa{  /* for icon not showing on large screen*/
 }
 .services-col{
     flex-basis: 30%;
-    background: #e6dada;
+    background: #b1c9f0;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -214,7 +214,7 @@ nav .fa{  /* for icon not showing on large screen*/
 }
 .team-col{
     flex-basis: 30%;
-    background: #e6dada;
+    background: #b1c9f0;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -265,7 +265,7 @@ nav .fa{  /* for icon not showing on large screen*/
     border-radius: 10px;
     text-align: left;
     margin-bottom: 5%;
-    background: #e6dada;
+    background: #b1c9f0;
     padding: 25px;
     cursor: pointer;
     display: flex;
